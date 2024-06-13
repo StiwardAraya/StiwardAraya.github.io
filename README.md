@@ -1,12 +1,12 @@
 # ACS Portfolio web profesional <img src="assets/img/logo_ACS.png" alt="Logo ACS" style="width:35px ; height:35px"> 
 ***
 Este proyecto es mi portafolio web personal, donde muestro mis habilidades 
-en desarrollo web. Aquí encontrarás mis conocimientos en tecnología, historial académico
+en desarrollo web. Aquí encontrarás mis conocimientos en tecnología, historial académico,
 intereses e información de contacto.
 ### Información general
 ***
 Portfolio web desarrollado con herramientas front-end de desarrollo, sitio web
-de presentación profesional, estudiante de ingeniería y junior front-end dev
+de presentación profesional, estudiante de ingeniería y junior front-end dev.
 ### Motivación
 ***
 He creado este portafolio para mostrar mi pasión por el desarrollo web y para compartir mis habilidades con el mundo. 
