@@ -1,4 +1,4 @@
-# ACS Portfolio web profesional <img src="assets/img/logo_ACS.png" alt="Logo ACS">
+# ACS Portfolio web profesional <img src="assets/img/logo_ACS.png" alt="Logo ACS" style="width:35px ; height:35px">
 ***
 Este proyecto es mi portafolio web personal, donde muestro mis habilidades 
 en desarrollo web. Aquí encontrarás mis conocimientos en tecnología, historial académico
