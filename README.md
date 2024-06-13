@@ -31,5 +31,5 @@ Tecnologías utilizadas para el desarrollo del sitio:
 * CSS 3
 * JavaScript
 #### Enlaces:
-[Link al portfolio, aún no disponible]
+* [Link al portfolio, aún no disponible]
 * Linkedin: https://www.linkedin.com/in/stiward-araya-8206002a2/
