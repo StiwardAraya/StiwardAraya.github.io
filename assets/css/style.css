@@ -109,14 +109,6 @@
     border-radius: 40px;
 }
 
-.banner>img{
-    position: absolute;
-    top: 100;
-    left: 1;
-    width: 35px;
-    height: 35px;
-}
-
 .banner .contenedor-img img{
     margin-top: 40px;
     border: 5px outset var(--color-solid-yellow);
@@ -188,6 +180,21 @@
 
     nav.responsive ul li a{
         font-size: 1.5em;
+    }
+}
+
+@media  screen and (max-width: 600px){
+    .contenedor-inicio .banner{
+        max-width: 250px;
+    }
+
+    .banner h2{
+        font-size: 22px;
+        margin-top: 20px;
+    }
+
+    .banner .redes a{
+        margin: 25px 5px;
     }
 }
 
