@@ -44,11 +44,12 @@
     height: 50px;
 }
 
-.logo a p{
-    color: var(--color-solid-yellow);
+.logo a h1{
+    color: rgb(255, 240, 120);
     font-family: 'Montserrat';
     font-size: 2em;
-    text-shadow: 1px 1px 5px var(--color-solid-yellow);
+    text-shadow: 1px 1px 10px var(--color-solid-yellow);
+    margin-bottom: 8px;
 }
 
 .menu{
@@ -87,6 +88,69 @@
     font-size: 20px;
     border-radius: 5px;
     min-width: 40px;
+}
+
+/* INICIO */
+.contenedor-inicio{
+    height: 100vh;
+    background: linear-gradient(to right, var(--color-translucent-blue), var(--color-translucent-blue)), url(../img/fondoInicioPC.jpg);
+    background-size: cover;
+    color: var(--color-solid-white);
+    display: flex;
+    align-items: center;
+}
+
+.contenedor-inicio .banner{
+    padding: 15px;
+    background-color: var(--color-solid-blue-d2);
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+
+.banner>img{
+    position: absolute;
+    top: 100;
+    left: 1;
+    width: 35px;
+    height: 35px;
+}
+
+.banner .contenedor-img img{
+    margin-top: 40px;
+    border: 5px outset var(--color-solid-yellow);
+    display: block;
+    width: 70%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.banner h2{
+    margin-top: 40px;
+    font-family: 'Montserrat';
+    font-size: 35px;
+}
+
+.banner h3{
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.banner .redes a{
+    color: var(--color-solid-white);
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid var(--color-solid-white);
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}.banner .redes a:hover{
+    background-color: var(--color-solid-yellow);
 }
 
 /* RESPONSIVE */
