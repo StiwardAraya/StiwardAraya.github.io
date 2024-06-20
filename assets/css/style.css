@@ -19,6 +19,7 @@
     top: 0;
     left: 0;
     z-index: 99;
+    box-shadow: 0 2px 5px var(--color-solid-black);
 }
 
 .contenedor-header header{
@@ -143,6 +144,127 @@
     transition: .3s;
 }.banner .redes a:hover{
     background-color: var(--color-solid-yellow);
+}
+
+/* SOBRE MI */
+.sobremi{
+    background-color: var(--color-solid-blue-d2);
+    color: var(--color-solid-white);
+    padding: 50px 20px;
+}
+
+.contenedor-sobremi{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.sobremi h2{
+    font-size: 48px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contenedor-sobremi p{
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 20px;
+}
+
+.contenedor-sobremi p span{
+    color: var(--color-solid-yellow);
+    font-weight: bold;
+}
+
+.sobremi .fila{
+    display: flex;
+}
+
+.sobremi .fila .col{
+    width: 50%;
+}
+
+.sobremi .fila .col h3{
+    font-size: 28px;
+    font-family: 'Montserrat';
+    margin-bottom: 25px;
+}
+
+.sobremi .fila .col ul{
+    list-style: none;
+}
+
+.sobremi .fila .col ul li{
+    margin: 12px 0;
+}
+
+.sobremi .fila .col ul li strong{
+    display: inline-block;
+    color: var(--color-solid-yellow);
+    width: 130px;
+}
+
+.sobremi .fila .col ul li span{
+    background-color: var(--color-solid-yellow);
+    padding: 3px;
+    font-weight: bold;
+    color: var(--color-solid-black);
+    border-radius: 5px;
+}
+
+.sobremi .fila .col .contenedor-intereses{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sobremi .fila .col .contenedor-intereses .interes{
+    width: 100px;
+    height: 100px;
+    background-color: var(--color-solid-blue);
+    border-radius: 10px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+    cursor: default;
+}.sobremi .fila .col .contenedor-intereses .interes:hover{
+    background-color: var(--color-solid-yellow);
+    color: var(--color-solid-black);
+    transform: translateY(-5px);
+}
+
+.sobremi .fila .col .contenedor-intereses .interes i{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.sobremi button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px outset var(--color-solid-white);
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: var(--color-solid-white);
+    position: relative;
+    z-index: 10;
+}
+
+.sobremi button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--color-solid-yellow);
+    z-index: -1;
+    transition: 1s;
+}.sobremi button:hover .overlay{
+    width: 100%;
 }
 
 /* RESPONSIVE */
