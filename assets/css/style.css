@@ -303,9 +303,13 @@
     nav.responsive ul li a{
         font-size: 1.5em;
     }
+
+    .sobremi .fila .col ul li strong{
+        width: 100px;
+    }
 }
 
-@media  screen and (max-width: 600px){
+@media  screen and (max-width: 700px){
     .contenedor-inicio .banner{
         max-width: 250px;
     }
@@ -317,6 +321,28 @@
 
     .banner .redes a{
         margin: 25px 5px;
+    }
+
+    .sobremi .fila{
+        flex-direction: column;
+    }
+
+    .sobremi .fila .col{
+        width: fit-content;
+    }
+
+    .sobremi .fila .col ul li strong{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .sobremi h2{
+        font-size: 44px;
+        text-align: left;
+    }
+    
+    .contenedor-sobremi p{
+        text-align: justify;
     }
 }
 
