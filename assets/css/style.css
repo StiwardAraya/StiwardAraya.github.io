@@ -12,7 +12,7 @@
 }
 
 /* HEADER */
-.contenedor-header{
+.header-container{
     background-color: var(--color-solid-blue);
     position: fixed;
     width: 100%;
@@ -22,7 +22,7 @@
     box-shadow: 0 2px 5px var(--color-solid-black);
 }
 
-.contenedor-header header{
+.header-container header{
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -78,7 +78,7 @@
     color: var(--color-solid-yellow);
 }
 
-.menu-responsive{
+.responsive-menu{
     display: none;
     color: var(--color-solid-white);
     background-color: var(--color-solid-yellow);
@@ -92,7 +92,7 @@
 }
 
 /* INICIO */
-.contenedor-inicio{
+.home-container{
     height: 100vh;
     background: linear-gradient(to right, var(--color-translucent-blue), var(--color-translucent-blue)), url(../img/fondoInicioPC.jpg);
     background-size: cover;
@@ -101,7 +101,7 @@
     align-items: center;
 }
 
-.contenedor-inicio .banner{
+.home-container .banner{
     padding: 15px;
     background-color: var(--color-solid-blue-d2);
     max-width: 400px;
@@ -110,7 +110,7 @@
     border-radius: 40px;
 }
 
-.banner .contenedor-img img{
+.banner .img-container img{
     margin-top: 40px;
     border: 5px outset var(--color-solid-yellow);
     display: block;
@@ -130,7 +130,7 @@
     font-weight: normal;
 }
 
-.banner .redes a{
+.banner .media a{
     color: var(--color-solid-white);
     display: inline-block;
     text-decoration: none;
@@ -142,69 +142,69 @@
     margin: 40px 5px;
     font-size: 20px;
     transition: .3s;
-}.banner .redes a:hover{
+}.banner .media a:hover{
     background-color: var(--color-solid-yellow);
 }
 
 /* SOBRE MI */
-.sobremi{
+.aboutme{
     background-color: var(--color-solid-blue-d2);
     color: var(--color-solid-white);
     padding: 50px 20px;
 }
 
-.contenedor-sobremi{
+.aboutme-container{
     max-width: 1100px;
     margin: auto;
 }
 
-.sobremi h2{
+.aboutme h2{
     font-size: 48px;
     font-family: 'Montserrat';
     text-align: center;
     padding: 20px 0;
 }
 
-.contenedor-sobremi p{
+.aboutme-container p{
     font-size: 18px;
     line-height: 22px;
     margin-bottom: 20px;
 }
 
-.contenedor-sobremi p span{
+.aboutme-container p span{
     color: var(--color-solid-yellow);
     font-weight: bold;
 }
 
-.sobremi .fila{
+.aboutme .row{
     display: flex;
 }
 
-.sobremi .fila .col{
+.aboutme .row .col{
     width: 50%;
 }
 
-.sobremi .fila .col h3{
+.aboutme .row .col h3{
     font-size: 28px;
     font-family: 'Montserrat';
     margin-bottom: 25px;
 }
 
-.sobremi .fila .col ul{
+.aboutme .row .col ul{
     list-style: none;
 }
 
-.sobremi .fila .col ul li{
+.aboutme .row .col ul li{
     margin: 12px 0;
 }
 
-.sobremi .fila .col ul li strong{
+.aboutme .row .col ul li strong{
     display: inline-block;
     color: var(--color-solid-yellow);
     width: 130px;
 }
 
-.sobremi .fila .col ul li span{
+.aboutme .row .col ul li span{
     background-color: var(--color-solid-yellow);
     padding: 3px;
     font-weight: bold;
@@ -212,12 +212,12 @@
     border-radius: 5px;
 }
 
-.sobremi .fila .col .contenedor-intereses{
+.aboutme .row .col .interests-container{
     display: flex;
     flex-wrap: wrap;
 }
 
-.sobremi .fila .col .contenedor-intereses .interes{
+.aboutme .row .col .interests-container .interest{
     width: 100px;
     height: 100px;
     background-color: var(--color-solid-blue);
@@ -229,18 +229,18 @@
     align-items: center;
     transition: .3s;
     cursor: default;
-}.sobremi .fila .col .contenedor-intereses .interes:hover{
+}.aboutme .row .col .interests-container .interest:hover{
     background-color: var(--color-solid-yellow);
     color: var(--color-solid-black);
     transform: translateY(-5px);
 }
 
-.sobremi .fila .col .contenedor-intereses .interes i{
+.aboutme .row .col .interests-container .interest i{
     font-size: 30px;
     margin-bottom: 10px;
 }
 
-.sobremi button{
+.aboutme button{
     cursor: pointer;
     background-color: transparent;
     border: 2px outset var(--color-solid-white);
@@ -254,7 +254,7 @@
     z-index: 10;
 }
 
-.sobremi button .overlay{
+.aboutme button .overlay{
     position: absolute;
     top: 0;
     left: 0;
@@ -263,7 +263,7 @@
     background-color: var(--color-solid-yellow);
     z-index: -1;
     transition: 1s;
-}.sobremi button:hover .overlay{
+}.aboutme button:hover .overlay{
     width: 100%;
 }
 
@@ -273,7 +273,7 @@
         display: none;
     }
 
-    .menu-responsive{
+    .responsive-menu{
         display: block;
     }
 
@@ -304,13 +304,13 @@
         font-size: 1.5em;
     }
 
-    .sobremi .fila .col ul li strong{
+    .aboutme .row .col ul li strong{
         width: 100px;
     }
 }
 
 @media  screen and (max-width: 700px){
-    .contenedor-inicio .banner{
+    .home-container .banner{
         max-width: 250px;
     }
 
@@ -319,29 +319,30 @@
         margin-top: 20px;
     }
 
-    .banner .redes a{
+    .banner .media a{
         margin: 25px 5px;
     }
 
-    .sobremi .fila{
+    .aboutme .row{
         flex-direction: column;
     }
 
-    .sobremi .fila .col{
+    .aboutme .row .col{
         width: fit-content;
     }
 
-    .sobremi .fila .col ul li strong{
+    .aboutme .row .col ul li strong{
         display: block;
         margin-bottom: 5px;
+        width: fit-content;
     }
 
-    .sobremi h2{
+    .aboutme h2{
         font-size: 44px;
         text-align: left;
     }
     
-    .contenedor-sobremi p{
+    .aboutme-container p{
         text-align: justify;
     }
 }

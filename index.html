@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Stiward Araya Calderón">
-    <meta name="description" content="Sitio web de presentación profesional">
-    <meta name="keywords" content="dev front-end html html5 css css3 javascript technologia junior desarrollador programacion programador web desarrollo portfolio portafolio">
-    <meta property="og:title" content="Desarrollador front-end: programador web">
-    <meta property="og:description" content="Sitio de presentación profesional, desarrollador front-end junior, contacto">
+    <meta name="description" content="Professional presentation website">
+    <meta name="keywords" content="dev front-end html html5 css css3 javascript technologia junior desarrollador programacion programador web desarrollo portfolio portafolio dev programmer developer tech tool">
+    <meta property="og:title" content="Front-end dev: web developer">
+    <meta property="og:description" content="Professional presentation website, Junior front-end dev, contact">
     <meta property="og:image" content="https://imgur.com/a/iU2djzI">
-    <meta property="twitter:title" content="Desarrollador front-end: programador web">
-    <meta property="twitter:description" content="Sitio de presentación profesional, desarrollador front-end junior, contacto">
+    <meta property="twitter:title" content="Front-end dev: web developer">
+    <meta property="twitter:description" content="Professional presentation website, Junior front-end dev, contact">
     <meta property="twitter:image" content="https://imgur.com/a/iU2djzI">
     <meta name="robots" content="index">
     <link rel="shortcut icon" href="assets/img/logo_ACS.png">
@@ -21,10 +21,10 @@
 </head>
 <body>
     
-    <div class="contenedor-header">
+    <div class="header-container">
         <header>
             <div class="logo">
-                <a href="#inicio">
+                <a href="#home">
                     <img src="assets/img/logo_ACS.png" alt="Logo" title="ACS">
                     <h1>{ACS}</h1>
                 </a>
@@ -32,29 +32,29 @@
             <div class="menu">
                 <nav id="nav" class="">
                     <ul>
-                        <li><a href="#inicio" onclick="select()">Inicio</a></li>
-                        <li><a href="#sobremi" onclick="select()">Sobre mi</a></li>
-                        <li><a href="#habilidades" onclick="select()">Habilidades</a></li>
+                        <li><a href="#home" onclick="select()">Home</a></li>
+                        <li><a href="#aboutme" onclick="select()">About Me</a></li>
+                        <li><a href="#skills" onclick="select()">Skills</a></li>
                         <li><a href="#curriculum" onclick="select()">Curriculum</a></li>
                         <li><a href="#portfolio" onclick="select()">Portfolio</a></li>
-                        <li><a href="#contacto" onclick="select()">Contacto</a></li>
+                        <li><a href="#contact" onclick="select()">Contact</a></li>
                     </ul>
                 </nav>
             </div>
-            <div class="menu-responsive" onclick="toggleMenu()">
+            <div class="responsive-menu" onclick="toggleMenu()">
                 <i class="fa-solid fa-bars"></i>
             </div>
         </header>
     </div>
 
-    <section id="inicio" class="contenedor-inicio">
+    <section id="home" class="home-container">
         <div class="banner">
-            <div class="contenedor-img">
+            <div class="img-container">
                 <img src="assets/img/Stiward_pfp.jpeg" alt="Imagen stiward" title="ACS">
             </div>
             <h2>STIWARD ARAYA</h2>
-            <h3>Estudiante de TI - Junior front-end dev</h3>
-            <div class="redes">
+            <h3>IT Student - Junior front-end dev</h3>
+            <div class="media">
                 <a href="https://github.com/StiwardAraya" target="_blank"><i class="fa-brands fa-github"></i></a>
                 <a href="https://www.linkedin.com/in/stiward-araya-8206002a2/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="https://www.instagram.com/stiwardaraya/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
@@ -62,27 +62,29 @@
         </div>
     </section>
 
-    <section id="sobremi" class="sobremi">
-        <div class="contenedor-sobremi">
-            <h2>Sobre mi</h2>
+    <section id="aboutme" class="aboutme">
+        <div class="aboutme-container">
+            <h2>About me</h2>
             <p>
-                <span>Hola, soy Stiward Araya.</span> 
-                Estudiante de ingeniería en sistemas con pasión por el desarrollo front-end, 
-                busco expandir mis habilidades y conocimientos para contribuir a proyectos relevantes. 
-                Si bien mi formación académica no profundiza en programación web, he cultivado un gran 
-                interés en esta área, especialmente en el ámbito front-end. Aspiro a conectar con profesionales 
-                experimentados y potenciales empleadores para impulsar mi crecimiento profesional.
+                <span>Hello! I am Stiward Araya.</span> 
+                Systems engineering student with a passion for front-end development, 
+                seeking to expand my skills and knowledge to contribute to relevant projects.
+                <br><br>
+                While my academic background does not delve deeply into web programming, 
+                I have cultivated a strong interest in this area, especially in the front-end realm. 
+                I aspire to connect with experienced professionals and potential employers to drive my professional 
+                growth.
             </p>
-            <div class="fila">
+            <div class="row">
                 <div class="col">
-                    <h3>Datos Personales</h3>
+                    <h3>Personal information</h3>
                     <ul>
                         <li>
-                            <strong>Cumpleaños</strong>
+                            <strong>Birth Date</strong>
                             28-12-1998
                         </li>
                         <li>
-                            <strong>Teléfono</strong>
+                            <strong>Phone Number</strong>
                             +506 7188 8247
                         </li>
                         <li>
@@ -91,46 +93,46 @@
                         </li>
                         <li>
                             <strong>Website</strong>
-                            [Aun no disponible]
+                            [Coming soon]
                         </li>
                         <li>
-                            <strong>Profesión</strong>
-                            <span>Estudiante de TI</span>
+                            <strong>Occupation</strong>
+                            <span>FREELANCER</span>
                         </li>
                     </ul>
                 </div>
                 <div class="col">
-                    <h3>Intereses</h3>
-                    <div class="contenedor-intereses">
-                        <div class="interes">
+                    <h3>Interests</h3>
+                    <div class="interests-container">
+                        <div class="interest">
                             <i class="fa-solid fa-gamepad"></i>
-                            <span>JUEGOS</span>
+                            <span>GAMING</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-music"></i>
-                            <span>MUSICA</span>
+                            <span>MUSIC</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-brands fa-windows"></i>
                             <span>WINDOWS</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-plane-departure"></i>
-                            <span>VIAJES</span>
+                            <span>TRAVEL</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-dumbbell"></i>
                             <span>GYM</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-camera-retro"></i>
-                            <span>FOTOS</span>
+                            <span>PHOTOS</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-guitar"></i>
-                            <span>GUITARRA</span>
+                            <span>GUITAR</span>
                         </div>
-                        <div class="interes">
+                        <div class="interest">
                             <i class="fa-solid fa-film"></i>
                             <span>CINE</span>
                         </div>
@@ -138,7 +140,7 @@
                 </div>
             </div>
             <button>
-                Descargar CV <i class="fa-solid fa-download"></i>
+                Download CV <i class="fa-solid fa-download"></i>
                 <span class="overlay"></span>
             </button>
         </div>

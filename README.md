@@ -1,35 +1,34 @@
-# ACS Portfolio web profesional <img src="assets/img/logo_ACS.png" alt="Logo ACS" style="width:35px ; height:35px"> 
+# ACS Professional Web Portfolio <img src="assets/img/logo_ACS.png" alt="Logo ACS" style="width:35px ; height:35px"> 
 ***
-Este proyecto es mi portafolio web personal, donde muestro mis habilidades 
-en desarrollo web. Aquí encontrarás mis conocimientos en tecnología, historial académico,
-intereses e información de contacto.
-### Información general
+This personal web portfolio serves as a showcase of my expertise in web development. 
+Here, you'll find an overview of my technical skills, academic background, 
+interests, and contact information.
+### General Info
 ***
-Portfolio web desarrollado con herramientas front-end de desarrollo, sitio web
-de presentación profesional, estudiante de ingeniería y junior front-end dev.
-### Motivación
+Front-end development portfolio website showcasing the professional 
+profile of a junior front-end developer and engineering student.
+### Motives
 ***
-He creado este portafolio para mostrar mi pasión por el desarrollo web y para compartir mis habilidades con el mundo. 
-Me encanta crear sitios web que sean atractivos, funcionales y fáciles de usar. Quiero poner mis habilidades a 
-disposición de quien las necesite.
-### Objetivos
+I've crafted this portfolio to showcase my passion for web development and share my skills with the world. 
+I'm driven by creating websites that are visually appealing, functionally robust, and user-friendly. 
+I'm eager to leverage my expertise to serve those in need.
+### Goals
 ***
-* Demostrar mis habilidades y experiencia en desarrollo web a clientes potenciales y empleadores.
-* Conectar con otros desarrolladores y profesionales de la industria.
-* Recibir comentarios sobre mi trabajo y seguir mejorando mis habilidades.
-### Características
+* Demonstrate my web development skills and experience to potential clients and employers.
+* Connect with other developers and industry professionals.
+* Receive feedback on my work and continuously enhance my skills.
+### Characteristics
 ***
-* Diseño responsivo
-* Interfaz user-friendly
-* Accesible
-* Fácil de navegar
-* Compatible en diferentes navegadores
-## Tecnologías
+* Responsive design
+* User-friendly UI
+* Easy to navigate
+* Cross-browser compatible
+## Tools
 ***
-Tecnologías utilizadas para el desarrollo del sitio:
+Tools used for site development:
 * HTML 5
 * CSS 3
 * JavaScript
-#### Enlaces:
-* [Link al portfolio, aún no disponible]
+#### Links:
+* [Portfolio link coming soon]
 * Linkedin: https://www.linkedin.com/in/stiward-araya-8206002a2/
