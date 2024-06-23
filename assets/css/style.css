@@ -91,7 +91,7 @@
     min-width: 40px;
 }
 
-/* INICIO */
+/* HOME */
 .home-container{
     height: 100vh;
     background: linear-gradient(to right, var(--color-translucent-blue), var(--color-translucent-blue)), url(../img/fondoInicioPC.jpg);
@@ -146,7 +146,7 @@
     background-color: var(--color-solid-yellow);
 }
 
-/* SOBRE MI */
+/* ABOUT ME */
 .aboutme{
     background-color: var(--color-solid-blue-d2);
     color: var(--color-solid-white);
@@ -233,6 +233,7 @@
     background-color: var(--color-solid-yellow);
     color: var(--color-solid-black);
     transform: translateY(-5px);
+    box-shadow: 5px 5px 5px var(--color-solid-black);
 }
 
 .aboutme .row .col .interests-container .interest i{
@@ -265,6 +266,158 @@
     transition: 1s;
 }.aboutme button:hover .overlay{
     width: 100%;
+}
+
+/* SKILLS */
+.skills{
+    background: linear-gradient(to top, var(--color-translucent-blue), var(--color-translucent-blue)), url(../img/skills-bg.jpg);
+    background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+    color: var(--color-solid-white);
+    padding: 50px 20px;
+}
+
+.skills .skills-container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.skills h2{
+    font-size: 48px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skills .row{
+    display: flex;
+}
+
+.skills .row .col{
+    width: 50%;
+    padding: 0 20px;
+}
+
+.skills .row .col h3{
+    font-size: 28px;
+    font-family: 'Montserrat';
+    margin-bottom: 25px;
+}
+
+.skills .skill > span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.skills .skill .skill-bar{
+    height: 8px;
+    width: 80%;
+    background-color: var(--color-solid-blue-d2);
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.skills .skill .progress{
+    background-color: var(--color-solid-yellow);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 8px;
+}
+
+.skills .skill .skill-bar span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: var(--color-solid-yellow);
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+}
+
+.skills .skill .html{
+    width: 0;
+    animation: 2s html forwards;
+}@keyframes html{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+.skills .skill .css{
+    width: 0;
+    animation: 2s css forwards;
+}@keyframes css{
+    0%{width: 0;}
+    100%{width: 65%;}
+}
+
+.skills .skill .javascript{
+    width: 0;
+    animation: 2s javascript forwards;
+}@keyframes javascript{
+    0%{width: 0;}
+    100%{width: 30%;}
+}
+
+.skills .skill .java{
+    width: 0;
+    animation: 2s java forwards;
+}@keyframes java{
+    0%{width: 0;}
+    100%{width: 45%;}
+}
+
+.skills .skill .sql{
+    width: 0;
+    animation: 2s sql forwards;
+}@keyframes sql{
+    0%{width: 0;}
+    100%{width: 45%;}
+}
+
+.skills .skill .react{
+    width: 0;
+    animation: 2s react forwards;
+}@keyframes react{
+    0%{width: 0;}
+    100%{width: 5%;}
+}
+
+.skills .skill .communication{
+    width: 0;
+    animation: 2s communication forwards;
+}@keyframes communication{
+    0%{width: 0;}
+    100%{width: 75%;}
+}
+
+.skills .skill .problem-solving{
+    width: 0;
+    animation: 2s problem-solving forwards;
+}@keyframes problem-solving{
+    0%{width: 0;}
+    100%{width: 80%;}
+}
+
+.skills .skill .adaptability{
+    width: 0;
+    animation: 2s adaptability forwards;
+}@keyframes adaptability{
+    0%{width: 0;}
+    100%{width: 70%;}
+}
+
+.skills .skill .creativity{
+    width: 0;
+    animation: 2s creativity forwards;
+}@keyframes creativity{
+    0%{width: 0;}
+    100%{width: 85%;}
 }
 
 /* RESPONSIVE */
@@ -340,6 +493,10 @@
     .aboutme h2{
         font-size: 44px;
         text-align: left;
+    }
+
+    .aboutme h3{
+        margin-top: 20px;
     }
     
     .aboutme-container p{
