@@ -502,5 +502,17 @@
     .aboutme-container p{
         text-align: justify;
     }
+
+    .skills .row{
+        flex-direction: column;
+    }
+
+    .skills .row .col{
+        width: 100%;
+    }
+
+    .skills .row .col .skill-bar{
+        width: 100%;
+    }
 }
 
