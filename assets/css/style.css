@@ -420,6 +420,131 @@
     100%{width: 85%;}
 }
 
+/* CURRICULUM */
+.curriculum{
+    background-color: var(--color-solid-blue-d2);
+    color: var(--color-solid-white);
+    padding: 50px 20px;
+}
+
+.curriculum .curriculum-container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.curriculum h2{
+    font-size: 48px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.curriculum .row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.curriculum .row .col{
+    width: 49%;
+    padding: 0 20px;
+}
+
+.curriculum .row .col h3{
+    font-size: 28px;
+    font-family: 'Montserrat';
+    margin-bottom: 25px;
+}
+
+.curriculum .row .left{
+    border-right: 2px solid var(--color-solid-yellow);
+}
+
+.curriculum .row .right{
+    border-left: 2px solid var(--color-solid-yellow);
+}
+
+.curriculum .row .item{
+    padding: 25px;
+    margin-bottom: 30px;
+    background-color: var(--color-solid-blue);
+    position: relative;
+}
+
+.curriculum .row .item h4{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.curriculum .row .item .house{
+    color: var(--color-solid-yellow);
+    font-size: 22px;
+    font-weight: bold;
+    display: block;
+}
+
+.curriculum .row .item .date{
+    color: var(--color-solid-yellow);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.curriculum .row .item p{
+    line-height: 24px;
+    text-align: justify;
+}
+
+.curriculum .row .left-item{
+    border-right: 2px solid var(--color-solid-yellow);
+    margin-right: 20px;
+}
+
+.curriculum .row .right-item{
+    border-left: 2px solid var(--color-solid-yellow);
+    margin-left: 20px;
+}
+
+.curriculum .row .item .conector-l{
+    height: 2px;
+    background-color: var(--color-solid-yellow);
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    right: -47px;
+    z-index: 5;
+}
+
+.curriculum .row .item .conector-r{
+    height: 2px;
+    background-color: var(--color-solid-yellow);
+    width: 47px;
+    position: absolute;
+    top: 50%;
+    left: -47px;
+    z-index: 5;
+}
+
+.curriculum .row .item .conector-l .circle-l{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--color-solid-yellow);
+    float: right;
+    position: relative;
+    bottom: 4px;
+}
+
+.curriculum .row .item .conector-r .circle-r{
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background-color: var(--color-solid-yellow);
+    float: left;
+    position: relative;
+    bottom: 4px;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width:900px){
     nav{
