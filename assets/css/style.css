@@ -639,5 +639,17 @@
     .skills .row .col .skill-bar{
         width: 100%;
     }
+
+    .curriculum .row{
+        flex-direction: column;
+    }
+
+    .curriculum .row .col{
+        width: 90%;
+    }
+
+    .curriculum .row .right{
+        margin-left: 20px;
+    }
 }
 
