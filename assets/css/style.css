@@ -545,6 +545,71 @@
     bottom: 4px;
 }
 
+/* PORTFOLIO */
+.portfolio{
+    background-color: var(--color-solid-blue);
+    color: var(--color-solid-white);
+    padding: 50px 20px;
+}
+
+.portfolio .portfolio-container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.portfolio h2{
+    font-size: 48px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.portfolio .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio .gallery .project{
+    position: relative;
+    max-width: 340px;
+    height: fit-content;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.portfolio .gallery .project img{
+    width: 100%;
+    display: block;
+}
+
+.portfolio .gallery .project .overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background: linear-gradient(to top, var(--color-translucent-yellow), var(--color-translucent-yellow));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1s;
+    font-size: 18px;
+    letter-spacing: 3px;
+    opacity: 0;
+}.portfolio .gallery .project .overlay:hover{
+    opacity: 1;
+}
+
+.portfolio .gallery .project .overlay h3{
+    margin-bottom: 20px;
+    transition: 1s;
+}.portfolio .gallery .project .overlay:hover h3{
+    margin-bottom: 0;
+}
+
+
+
 /* RESPONSIVE */
 @media screen and (max-width:900px){
     nav{
