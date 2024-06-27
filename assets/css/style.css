@@ -705,6 +705,51 @@
     margin-right: 20px;
 }
 
+footer{
+    background-color: var(--color-solid-blue-d1);
+    color: var(--color-solid-white);
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    box-shadow: 0 -5px 10px var(--color-solid-blue);
+}
+
+footer .media{
+    margin-bottom: 20px;
+}
+
+footer .media a{
+    color: var(--color-solid-white);
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid var(--color-solid-white);
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    margin: 40px 5px;
+    font-size: 20px;
+    transition: .3s;
+}footer .media a:hover{
+    background-color: var(--color-solid-yellow);
+}
+
+footer .up{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-solid-yellow);
+    color: var(--color-solid-white);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+}
+
 /* RESPONSIVE */
 @media screen and (max-width:900px){
     nav{
