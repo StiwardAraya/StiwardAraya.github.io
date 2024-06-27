@@ -716,5 +716,18 @@
     .curriculum .row .right{
         margin-left: 20px;
     }
+
+    .portfolio .gallery{
+        display: block;
+        width: 100%;
+    }
+
+    .portfolio .gallery .project{
+        max-width: 100%;
+    }
+
+    .portfolio .gallery .project img{
+        width: 100%;
+    }
 }
 
