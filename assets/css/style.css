@@ -608,7 +608,102 @@
     margin-bottom: 0;
 }
 
+/* CONTACT */
+.contact{
+    background: linear-gradient(to top, var(--color-translucent-blue), var(--color-translucent-blue)), url(../img/fondoContacto.jpg);
+    background-position: center;
+    background-size: cover;
+    color: var(--color-solid-white);
+    padding: 50px 0;
+}
 
+.contact .contact-container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+.contact h2{
+    font-size: 48px;
+    font-family: 'Montserrat';
+    text-align: center;
+    padding: 0 20px;
+}
+
+.contact .row{
+    display: flex;
+}
+
+.contact .row .col{
+    width: 50%;
+    padding: 10px;
+    position: relative;
+}
+
+.contact .row .col input, .contact .col textarea{
+    display: block;
+    width: 100%;
+    padding: 18px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: var(--color-solid-blue);
+    color: var(--color-solid-white);
+    font-size: 18px;
+}
+
+.contact button{
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px outset var(--color-solid-white);
+    width: fit-content;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color: var(--color-solid-white);
+    position: relative;
+    z-index: 10;
+}
+
+.contact button .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: var(--color-solid-yellow);
+    z-index: -1;
+    transition: 1s;
+}.contact button:hover .overlay{
+    width: 100%;
+}
+
+.contact .col img{
+    width: 100%;
+}
+
+.contact .col .info{
+    position: absolute;
+    top: 40%;
+    background-color: var(--color-solid-blue);
+    padding: 20px;
+    width: 450px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contact .col .info ul{
+    list-style: none;
+}
+
+.contact .col .info ul li{
+    margin-bottom: 20px;
+}
+
+.contact .col .info ul li i{
+    color: var(--color-solid-yellow);
+    display: inline-block;
+    margin-right: 20px;
+}
 
 /* RESPONSIVE */
 @media screen and (max-width:900px){
