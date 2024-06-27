@@ -790,6 +790,12 @@ footer .up{
     .aboutme .row .col ul li strong{
         width: 100px;
     }
+
+    
+    .contact .col .info{
+        width: 325px;
+        top: 28%;
+    }
 }
 
 @media  screen and (max-width: 700px){
@@ -868,6 +874,18 @@ footer .up{
 
     .portfolio .gallery .project img{
         width: 100%;
+    }
+
+    .contact .row{
+        flex-direction: column;
+    }
+
+    .contact .row .col{
+        width: 100%;
+    }
+
+    .contact .col .info{
+        top: 40%;
     }
 }
 
