@@ -26,6 +26,7 @@ function select(){
 
 /*
 * skillsFX
+*
 * Detects when the window scroll is at 300 pixels distance relative to 
 * the top of the skills section.
 *
@@ -53,5 +54,14 @@ function skillsFX(){
 //Calls skillsFX when the user scrolls
 window.onscroll = function(){
     skillsFX();
+}
+
+function downloadCV(){
+    const link = document.createElement('a');
+    link.href = 'assets/documents/Stiward CV.pdf';
+    link.target = '_blank';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
 }
 
