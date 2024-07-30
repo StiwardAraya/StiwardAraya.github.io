@@ -56,6 +56,13 @@ window.onscroll = function(){
     skillsFX();
 }
 
+/*
+* downloadCV
+* 
+* Creates a link element with a href in the CV local URL,
+* add the link to the button as a child, triggers the link and then
+* removes the link from the button.
+*/
 function downloadCV(){
     const link = document.createElement('a');
     link.href = 'assets/documents/Stiward CV.pdf';
