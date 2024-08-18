@@ -1,392 +1,438 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Stiward Araya Calderón">
-    <meta name="description" content="Professional presentation website">
-    <meta name="keywords" content="dev front-end html html5 css css3 javascript technologia junior desarrollador programacion programador web desarrollo portfolio portafolio dev programmer developer tech tool">
-    <meta property="og:title" content="Front-end dev: web developer">
-    <meta property="og:description" content="Professional presentation website, Junior front-end dev, contact">
-    <meta property="og:image" content="https://imgur.com/a/iU2djzI">
-    <meta property="twitter:title" content="Front-end dev: web developer">
-    <meta property="twitter:description" content="Professional presentation website, Junior front-end dev, contact">
-    <meta property="twitter:image" content="https://imgur.com/a/iU2djzI">
-    <meta name="robots" content="index">
-    <link rel="shortcut icon" href="assets/img/logo_ACS.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="assets/css/normalize.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Stiward Araya Calderón" />
+    <meta name="description" content="Professional presentation website" />
+    <meta
+      name="keywords"
+      content="dev front-end html html5 css css3 javascript technologia junior desarrollador programacion programador web desarrollo portfolio portafolio dev programmer developer tech tool"
+    />
+    <meta property="og:title" content="Front-end dev: web developer" />
+    <meta
+      property="og:description"
+      content="Professional presentation website, Junior front-end dev, contact"
+    />
+    <meta property="og:image" content="https://imgur.com/a/iU2djzI" />
+    <meta property="twitter:title" content="Front-end dev: web developer" />
+    <meta
+      property="twitter:description"
+      content="Professional presentation website, Junior front-end dev, contact"
+    />
+    <meta property="twitter:image" content="https://imgur.com/a/iU2djzI" />
+    <meta name="robots" content="index" />
+    <link rel="shortcut icon" href="assets/img/logo_ACS.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/normalize.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <title>Portfolio ACS</title>
-</head>
-<body>
-    
+  </head>
+  <body>
     <div class="header-container">
-        <header>
-            <div class="logo">
-                <a href="#home">
-                    <img src="assets/img/logo_ACS.png" alt="Logo" title="ACS">
-                    <h1>{ACS}</h1>
-                </a>
-            </div>
-            <div class="menu">
-                <nav id="nav" class="">
-                    <ul>
-                        <li><a href="#home" onclick="select()">Home</a></li>
-                        <li><a href="#aboutme" onclick="select()">About Me</a></li>
-                        <li><a href="#skills" onclick="select()">Skills</a></li>
-                        <li><a href="#curriculum" onclick="select()">Curriculum</a></li>
-                        <li><a href="#portfolio" onclick="select()">Portfolio</a></li>
-                        <li><a href="#contact" onclick="select()">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="responsive-menu" onclick="toggleMenu()">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-        </header>
+      <header>
+        <div class="logo">
+          <a href="#home">
+            <img src="assets/img/logo_ACS.png" alt="Logo" title="ACS" />
+            <h1>{ACS}</h1>
+          </a>
+        </div>
+        <div class="menu">
+          <nav id="nav" class="">
+            <ul>
+              <li><a href="#home" onclick="select()">Home</a></li>
+              <li><a href="#aboutme" onclick="select()">About Me</a></li>
+              <li><a href="#skills" onclick="select()">Skills</a></li>
+              <li><a href="#curriculum" onclick="select()">Curriculum</a></li>
+              <li><a href="#portfolio" onclick="select()">Portfolio</a></li>
+              <li><a href="#contact" onclick="select()">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="responsive-menu" onclick="toggleMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
     </div>
 
     <section id="home" class="home-container">
-        <div class="banner">
-            <div class="img-container">
-                <img src="assets/img/Stiward_pfp.jpeg" alt="Imagen stiward" title="ACS">
-            </div>
-            <h2>STIWARD ARAYA</h2>
-            <h3>IT Student - Junior front-end dev</h3>
-            <div class="media">
-                <a href="https://github.com/StiwardAraya" target="_blank"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/stiward-araya-8206002a2/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                <a href="https://www.instagram.com/stiwardaraya/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-            </div>
+      <div class="banner">
+        <div class="img-container">
+          <img
+            src="assets/img/Stiward_pfp.jpeg"
+            alt="Imagen stiward"
+            title="ACS"
+          />
         </div>
+        <h2>STIWARD ARAYA</h2>
+        <h3>IT Student - Junior front-end dev</h3>
+        <div class="media">
+          <a href="https://github.com/StiwardAraya" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/stiward-araya-8206002a2/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+          <a href="https://www.instagram.com/stiwardaraya/" target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+        </div>
+      </div>
     </section>
 
     <section id="aboutme" class="aboutme">
-        <div class="aboutme-container">
-            <h2>About me</h2>
-            <p>
-                <span>Hello! I am Stiward Araya.</span> 
-                Systems engineering student with a passion for front-end development, 
-                seeking to expand my skills and knowledge to contribute to relevant projects.
-                <br><br>
-                While my academic background does not delve deeply into web programming, 
-                I have cultivated a strong interest in this area, especially in the front-end realm. 
-                I aspire to connect with experienced professionals and potential employers to drive my professional 
-                growth.
-            </p>
-            <div class="row">
-                <div class="col">
-                    <h3>Personal information</h3>
-                    <ul>
-                        <li>
-                            <strong>Birth Date</strong>
-                            28-12-1998
-                        </li>
-                        <li>
-                            <strong>Phone Number</strong>
-                            +506 7188 8247
-                        </li>
-                        <li>
-                            <strong>Email</strong>
-                            StiwardArayaCalderon98@gmail.com
-                        </li>
-                        <li>
-                            <strong>Website</strong>
-                            [Coming soon]
-                        </li>
-                        <li>
-                            <strong>Occupation</strong>
-                            <span>FREELANCER</span>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col">
-                    <h3>Interests</h3>
-                    <div class="interests-container">
-                        <div class="interest">
-                            <i class="fa-solid fa-gamepad"></i>
-                            <span>GAMING</span>
-                        </div>
-                        <div class="interest">
-                            <i class="fa-solid fa-music"></i>
-                            <span>MUSIC</span>
-                        </div>
-                        <div class="interest">
-                            <i class="fa-brands fa-windows"></i>
-                            <span>WINDOWS</span>
-                        </div>
-                        <div class="interest">
-                            <i class="fa-solid fa-plane-departure"></i>
-                            <span>TRAVEL</span>
-                        </div>
-                        <div class="interest">
-                            <i class="fa-solid fa-dumbbell"></i>
-                            <span>GYM</span>
-                        </div>
-                        <div class="interest">
-                            <i class="fa-solid fa-camera-retro"></i>
-                            <span>PHOTOS</span>
-                        </div>
-                        <div class="interest">
-                            <i class="fa-solid fa-guitar"></i>
-                            <span>GUITAR</span>
-                        </div>
-                        <div class="interest">
-                            <i class="fa-solid fa-film"></i>
-                            <span>CINE</span>
-                        </div>
-                    </div>
-                </div>
+      <div class="aboutme-container">
+        <h2>About me</h2>
+        <p>
+          <span>Hello! I am Stiward Araya.</span>
+          Systems engineering student with a passion for front-end development,
+          seeking to expand my skills and knowledge to contribute to relevant
+          projects.
+          <br /><br />
+          While my academic background does not delve deeply into web
+          programming, I have cultivated a strong interest in this area,
+          especially in the front-end realm. I aspire to connect with
+          experienced professionals and potential employers to drive my
+          professional growth.
+        </p>
+        <div class="row">
+          <div class="col">
+            <h3>Personal information</h3>
+            <ul>
+              <li>
+                <strong>Birth Date</strong>
+                28-12-1998
+              </li>
+              <li>
+                <strong>Phone Number</strong>
+                +506 7188 8247
+              </li>
+              <li>
+                <strong>Email</strong>
+                StiwardArayaCalderon98@gmail.com
+              </li>
+              <li>
+                <strong>Website</strong>
+                [Coming soon]
+              </li>
+              <li>
+                <strong>Occupation</strong>
+                <span>FREELANCER</span>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <h3>Interests</h3>
+            <div class="interests-container">
+              <div class="interest">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>GAMING</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-music"></i>
+                <span>MUSIC</span>
+              </div>
+              <div class="interest">
+                <i class="fa-brands fa-windows"></i>
+                <span>WINDOWS</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-plane-departure"></i>
+                <span>TRAVEL</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-dumbbell"></i>
+                <span>GYM</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-camera-retro"></i>
+                <span>PHOTOS</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-guitar"></i>
+                <span>GUITAR</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-film"></i>
+                <span>CINE</span>
+              </div>
             </div>
-            <button onclick="downloadCV()">
-                Download CV <i class="fa-solid fa-download"></i>
-                <span class="overlay"></span>
-            </button>
+          </div>
         </div>
+        <button onclick="downloadCV()">
+          Download CV <i class="fa-solid fa-download"></i>
+          <span class="overlay"></span>
+        </button>
+      </div>
     </section>
 
     <section id="skills" class="skills">
-        <div class="skills-container">
-            <h2>Skills</h2>
-            <div class="row">
-                <div class="col">
-                    <h3>Technical Skills</h3>
-                    <div class="skill">
-                        <span>HTML 5</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>CSS 3</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>65%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>JavaScript</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>30%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Java</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>45%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>SQL</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>45%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>React</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>5%</span>
-                            </div>
-                        </div>
-                    </div>
+      <div class="skills-container">
+        <h2>Skills</h2>
+        <div class="row">
+          <div class="col">
+            <h3>Technical Skills</h3>
+            <div class="skill">
+              <span>HTML 5</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>70%</span>
                 </div>
-                <div class="col">
-                    <h3>Professional skills</h3>
-                    <div class="skill">
-                        <span>Communication</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>75%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Problem-solving</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>80%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Adaptability</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>70%</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="skill">
-                        <span>Creativity</span>
-                        <div class="skill-bar">
-                            <div class="progress">
-                                <span>85%</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
+            <div class="skill">
+              <span>CSS 3</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>65%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>30%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Java</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>45%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>SQL</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>45%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>React</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>5%</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h3>Professional skills</h3>
+            <div class="skill">
+              <span>Communication</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>75%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Problem-solving</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>80%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Adaptability</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>70%</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Creativity</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>85%</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="curriculum" class="curriculum">
-        <div class="curriculum-container">
-            <h2>CURRICULUM</h2>
-            <div class="row">
-                <div class="col left">
-                    <h3>Education</h3>
-                    <div class="item left-item">
-                        <h4>IT For Bussines</h4>
-                        <span class="house">University of Costa Rica</span>
-                        <span class="date">2017 - 2021</span>
-                        <p>Following my initial IT studies after high school, 
-                        I decided the program wasn't the right fit for my interest 
-                        in a more hands-on approach to the field, so I opted for technical 
-                        training instead.</p>
-                        <div class="conector-l">
-                            <div class="circle-l"></div>
-                        </div>
-                    </div>
-                    <div class="item left-item">
-                        <h4>Systems Engineering</h4>
-                        <span class="house">National University of Costa Rica</span>
-                        <span class="date">2022 - Today</span>
-                        <p>I'm currently engaged in this career (since 2022) to develop 
-                        my skills in programming and build a strong professional profile.</p>
-                        <div class="conector-l">
-                            <div class="circle-l"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col right">
-                    <h3>Professional Experience</h3>
-                    <div class="item right-item">
-                        <h4>No experience yet</h4>
-                        <span class="house"></span>
-                        <span class="date"></span>
-                        <p>Help me filling this list</p>
-                        <div class="conector-r">
-                            <div class="circle-r"></div>
-                        </div>
-                    </div>
-                </div>
+      <div class="curriculum-container">
+        <h2>CURRICULUM</h2>
+        <div class="row">
+          <div class="col left">
+            <h3>Education</h3>
+            <div class="item left-item">
+              <h4>IT For Bussines</h4>
+              <span class="house">University of Costa Rica</span>
+              <span class="date">2017 - 2021</span>
+              <p>
+                Following my initial IT studies after high school, I decided the
+                program wasn't the right fit for my interest in a more hands-on
+                approach to the field, so I opted for technical training
+                instead.
+              </p>
+              <div class="conector-l">
+                <div class="circle-l"></div>
+              </div>
             </div>
+            <div class="item left-item">
+              <h4>Systems Engineering</h4>
+              <span class="house">National University of Costa Rica</span>
+              <span class="date">2022 - Today</span>
+              <p>
+                I'm currently engaged in this career (since 2022) to develop my
+                skills in programming and build a strong professional profile.
+              </p>
+              <div class="conector-l">
+                <div class="circle-l"></div>
+              </div>
+            </div>
+          </div>
+          <div class="col right">
+            <h3>Professional Experience</h3>
+            <div class="item right-item">
+              <h4>No experience yet</h4>
+              <span class="house"></span>
+              <span class="date"></span>
+              <p>Help me filling this list</p>
+              <div class="conector-r">
+                <div class="circle-r"></div>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="portfolio" class="portfolio">
-        <div class="portfolio-container">
-            <h2>PORTFOLIO</h2>
-            <div class="gallery">
-                <div class="project">
-                    <img src="assets/img/presentacion-portfolio.png" alt="no project">
-                    <div class="overlay">
-                        <h3>Professional Portfolio</h3>
-                        <p>
-                            Made with basic front-end tools<br>
-                            HTML5 CSS3 JS
-                        </p>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="assets/img/overlaySinProyecto.jpg" alt="no project">
-                    <div class="overlay">
-                        <h3>No project yet</h3>
-                        <p>Help me filling this square</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="assets/img/overlaySinProyecto.jpg" alt="no project">
-                    <div class="overlay">
-                        <h3>No project yet</h3>
-                        <p>Help me filling this square</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="assets/img/overlaySinProyecto.jpg" alt="no project">
-                    <div class="overlay">
-                        <h3>No project yet</h3>
-                        <p>Help me filling this square</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="assets/img/overlaySinProyecto.jpg" alt="no project">
-                    <div class="overlay">
-                        <h3>No project yet</h3>
-                        <p>Help me filling this square</p>
-                    </div>
-                </div>
-                <div class="project">
-                    <img src="assets/img/overlaySinProyecto.jpg" alt="no project">
-                    <div class="overlay">
-                        <h3>No project yet</h3>
-                        <p>Help me filling this square</p>
-                    </div>
-                </div>
+      <div class="portfolio-container">
+        <h2>PORTFOLIO</h2>
+        <div class="gallery">
+          <div class="project">
+            <img src="assets/img/presentacion-portfolio.png" alt="no project" />
+            <div class="overlay">
+              <h3>Professional Portfolio</h3>
+              <p>
+                Made with basic front-end tools<br />
+                HTML5 CSS3 JS
+              </p>
             </div>
+          </div>
+          <div class="project">
+            <img src="assets/img/overlaySinProyecto.jpg" alt="no project" />
+            <div class="overlay">
+              <h3>No project yet</h3>
+              <p>Help me filling this square</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="assets/img/overlaySinProyecto.jpg" alt="no project" />
+            <div class="overlay">
+              <h3>No project yet</h3>
+              <p>Help me filling this square</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="assets/img/overlaySinProyecto.jpg" alt="no project" />
+            <div class="overlay">
+              <h3>No project yet</h3>
+              <p>Help me filling this square</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="assets/img/overlaySinProyecto.jpg" alt="no project" />
+            <div class="overlay">
+              <h3>No project yet</h3>
+              <p>Help me filling this square</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="assets/img/overlaySinProyecto.jpg" alt="no project" />
+            <div class="overlay">
+              <h3>No project yet</h3>
+              <p>Help me filling this square</p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section id="contact" class="contact">
-        <div class="contact-container">
-            <h2>CONTACT</h2>
-            <div class="row">
-                <div class="col">
-                    <input type="text" placeholder="Name">
-                    <input type="text" placeholder="Phone Number">
-                    <input type="text" placeholder="Email">
-                    <input type="text" placeholder="Subject">
-                    <textarea name="" id="" cols="30" rows="6" placeholder="Message"></textarea>
-                    <button>
-                        Send<i class="fa-solid fa-paper-plane"></i>
-                        <span class="overlay"></span>
-                    </button>
-                </div>
-                <div class="col">
-                    <img src="assets/img/Ubicacion.JPG" alt="ubication">
-                    <div class="info">
-                        <ul>
-                            <li>
-                                <i class="fa-solid fa-earth-americas"></i>
-                                Perez Zeledón, San José, Costa Rica.
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-phone-volume"></i>
-                                Call me: +506 7188 8247
-                            </li>
-                            <li>
-                                <i class="fa-solid fa-envelope"></i>
-                                Email: StiwardArayaCalderon98@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+      <div class="contact-container">
+        <h2>CONTACT</h2>
+        <div class="row">
+          <div class="col">
+            <input type="text" placeholder="Name" />
+            <input type="text" placeholder="Phone Number" />
+            <input type="text" placeholder="Email" />
+            <input type="text" placeholder="Subject" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="6"
+              placeholder="Message"
+            ></textarea>
+            <button>
+              Send<i class="fa-solid fa-paper-plane"></i>
+              <span class="overlay"></span>
+            </button>
+          </div>
+          <div class="col">
+            <img src="assets/img/Ubicacion.JPG" alt="ubication" />
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-earth-americas"></i>
+                  Perez Zeledón, San José, Costa Rica.
+                </li>
+                <li>
+                  <i class="fa-solid fa-phone-volume"></i>
+                  Call me: +506 7188 8247
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: StiwardArayaCalderon98@gmail.com
+                </li>
+              </ul>
             </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <footer>
-        <a href="#home" class="up">
-            <i class="fa-solid fa-caret-up"></i>
-        </a>
-        <div class="media">
-            <a href="https://github.com/StiwardAraya" target="_blank"><i class="fa-brands fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/stiward-araya-8206002a2/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-            <a href="https://www.instagram.com/stiwardaraya/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        </div>
+      <a href="#home" class="up">
+        <i class="fa-solid fa-caret-up"></i>
+      </a>
+      <div class="media">
+        <a href="https://github.com/StiwardAraya" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/stiward-araya-8206002a2/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin-in"></i
+        ></a>
+        <a href="https://www.instagram.com/stiwardaraya/" target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </div>
     </footer>
 
     <script src="assets/js/script.js"></script>
-</body>
+  </body>
 </html>
