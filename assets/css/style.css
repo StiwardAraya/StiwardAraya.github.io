@@ -429,7 +429,7 @@
     width: 0;
   }
   100% {
-    width: 5%;
+    width: 20%;
   }
 }
 
@@ -472,16 +472,16 @@
   }
 }
 
-.skills .skill .creativity {
+.skills .skill .proactivity {
   width: 0;
-  animation: 2s creativity forwards;
+  animation: 2s proactivity forwards;
 }
-@keyframes creativity {
+@keyframes proactivity {
   0% {
     width: 0;
   }
   100% {
-    width: 85%;
+    width: 80%;
   }
 }
 
